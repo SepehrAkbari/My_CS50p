@@ -1,5 +1,4 @@
 # CS50p 
 
-### I'll be using this repository to save all my work during the CS50P Course
-### Don't copy the code, but do get inspired from it
-#### Copying the code is against C50 Academix Honesty
+### I'll be using this repository to save all my work during the CS50P Course. It includes all the labs, and the final project. 
+##### Please don't copy code, as it goes againt Harvard's academic honesty policy, however, do get inspired!
