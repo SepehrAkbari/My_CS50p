@@ -1,6 +1,6 @@
 Python:
 
-Python is required.
+Python3 or higher is required.
 
 
 Tabulate:
