@@ -5,5 +5,5 @@ Python3 or higher is required.
 
 Tabulate:
 
-The Tabulate library is required.
+The Tabulate library is required. Recommended: Tabulate 0.9.0
 Download with pip using: pip install tabulate
