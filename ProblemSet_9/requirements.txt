@@ -1,0 +1,9 @@
+Python:
+
+Python is required.
+
+
+Tabulate:
+
+The Tabulate library is required.
+Download with pip using: pip install tabulate
