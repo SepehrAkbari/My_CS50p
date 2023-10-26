@@ -6,4 +6,10 @@ Python3 or higher is required.
 Tabulate:
 
 The Tabulate library is required. Recommended: Tabulate 0.9.0
-Download with pip using: pip install tabulate
+Install with pip using: pip install tabulate
+
+
+PyTest:
+
+pytest is required for testing, and executing the test_project.py
+Install with pip using: pip install pytest
