@@ -1,88 +1,5 @@
 from tabulate import tabulate
 
-
-def meters_to_feet(meters):
-    feet = meters * 3.28084
-    return round(feet, 2)
-
-def feet_to_meters(feet):
-    meter = feet / 3.28084
-    return round(meter, 2)
-
-def kilometer_to_mile(kilometer):
-    mile = kilometer * 0.621371
-    return round(mile, 2)
-
-def mile_to_kilometer(mile):
-    km = mile * 1.609344
-    return round(km, 2)
-
-def centimeter_to_inch(centimeter):
-    inch = centimeter * 0.393701
-    return round(inch, 2)
-
-def inch_to_centimeter(inch):
-    cm = inch * 2.54
-    return round(cm, 2)
-
-def kilogram_to_pound(kilogram):
-    pound = kilogram * 2.20462
-    return round(pound, 2)
-
-def pound_to_kilogram(pound):
-    kg = pound * 0.453592
-    return round(kg, 2)
-
-def liter_to_gallon(liter):
-    gallon = liter * 0.264172
-    return round(gallon, 2)
-
-def gallon_to_liter(gallon):
-    liter = gallon * 3.78541
-    return round(liter, 2)
-
-def celsius_to_fahrenheit(celsius):
-    f = (celsius * (9/5)) + 32
-    return round(f, 2)
-
-def fahrenheit_to_celsius(fahrenheit):
-    c = (fahrenheit - 32) * (5/9)
-    return round(c, 2)
-
-
-def main_menu():
-    menu = [
-        ["0", "Quit"],
-        ["1", "I am an American"],
-        ["2", "I am NOT an American"]
-    ]
-    return tabulate(menu,headers=["Choice", "Option"], tablefmt="rounded_outline")
-
-def US_menu():
-    menu = [
-        ["0", "Back"],
-        ["1", "Convert feet to meter"],
-        ["2", "Convert mile to kilometer"],
-        ["3", "Convert inch to centimeter"],
-        ["4", "Convert pound to kilogram"],
-        ["5", "Convert gallon to liter"],
-        ["6", "Convert fahrenheit to celsius"]
-    ]
-    return tabulate(menu, headers=["Choice", "Option"], tablefmt="rounded_outline")
-
-def other_menu():
-    menu = [
-        ["0", "Back"],
-        ["1", "Convert meter to feet"],
-        ["2", "Convert kilometer to mile"],
-        ["3", "Convert centimeter to inch"],
-        ["4", "Convert kilogram to pound"],
-        ["5", "Convert liter to gallon"],
-        ["6", "Convert celsius to fahrenheit"]
-    ]
-    return tabulate(menu, headers=["Choice", "Option"], tablefmt="rounded_outline")
-
-
 def main():
     x = True
     z = True
@@ -179,6 +96,7 @@ def main():
                     print(f"{celsius} celsius is equal to {fahrenheit} fahrenheit.")
                 else:
                     print("Invalid choice. Please select a valid option.")
+                    
 
         elif american == '0':
             print("")
@@ -188,6 +106,87 @@ def main():
             exit()
         else:
             print("Invalid choice. Please select a valid option.")
+
+def meters_to_feet(meters):
+    feet = meters * 3.28084
+    return round(feet, 2)
+
+def feet_to_meters(feet):
+    meter = feet / 3.28084
+    return round(meter, 2)
+
+def kilometer_to_mile(kilometer):
+    mile = kilometer * 0.621371
+    return round(mile, 2)
+
+def mile_to_kilometer(mile):
+    km = mile * 1.609344
+    return round(km, 2)
+
+def centimeter_to_inch(centimeter):
+    inch = centimeter * 0.393701
+    return round(inch, 2)
+
+def inch_to_centimeter(inch):
+    cm = inch * 2.54
+    return round(cm, 2)
+
+def kilogram_to_pound(kilogram):
+    pound = kilogram * 2.20462
+    return round(pound, 2)
+
+def pound_to_kilogram(pound):
+    kg = pound * 0.453592
+    return round(kg, 2)
+
+def liter_to_gallon(liter):
+    gallon = liter * 0.264172
+    return round(gallon, 2)
+
+def gallon_to_liter(gallon):
+    liter = gallon * 3.78541
+    return round(liter, 2)
+
+def celsius_to_fahrenheit(celsius):
+    f = (celsius * (9/5)) + 32
+    return round(f, 2)
+
+def fahrenheit_to_celsius(fahrenheit):
+    c = (fahrenheit - 32) * (5/9)
+    return round(c, 2)
+
+
+def main_menu():
+    menu = [
+        ["0", "Quit"],
+        ["1", "I am an American"],
+        ["2", "I am NOT an American"]
+    ]
+    return tabulate(menu,headers=["Choice", "Option"], tablefmt="rounded_outline")
+
+def US_menu():
+    menu = [
+        ["0", "Back"],
+        ["1", "Convert feet to meter"],
+        ["2", "Convert mile to kilometer"],
+        ["3", "Convert inch to centimeter"],
+        ["4", "Convert pound to kilogram"],
+        ["5", "Convert gallon to liter"],
+        ["6", "Convert fahrenheit to celsius"]
+    ]
+    return tabulate(menu, headers=["Choice", "Option"], tablefmt="rounded_outline")
+
+def other_menu():
+    menu = [
+        ["0", "Back"],
+        ["1", "Convert meter to feet"],
+        ["2", "Convert kilometer to mile"],
+        ["3", "Convert centimeter to inch"],
+        ["4", "Convert kilogram to pound"],
+        ["5", "Convert liter to gallon"],
+        ["6", "Convert celsius to fahrenheit"]
+    ]
+    return tabulate(menu, headers=["Choice", "Option"], tablefmt="rounded_outline")
 
 if __name__ == "__main__":
     main()
