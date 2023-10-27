@@ -1,4 +1,2 @@
-# CS50p 
-
-### I'll be using this repository to save all my work during the CS50P Course. It includes all the labs, and the final project. 
-##### Please don't copy code, as it goes againt Harvard's academic honesty policy, however, do get inspired!
+![CS50P_pll](https://github.com/SepehrAkbari/My_CS50p/assets/82570094/6f34d42d-6ce6-4509-b7ea-9c6fb09c22eb)
+# CS50P
